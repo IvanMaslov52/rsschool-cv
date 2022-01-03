@@ -1,16 +1,27 @@
 #[rsschol-cs]()
-****
+
+***
+
 #Ivan Maslov
-*****
+
+***
+
 #My contacts info:
-****
+
+***
+
 * Phone:  +7(987) 404-44-02
 * E-mail: ivanmaslov19911@gmail.com
 * GitHub: Papagoth
+
 #About Me
-****
+
+***
+
 I am a second year student. In my first year I studied C ++ after I got carried away with backend (Java). Due to lack of experience in frontend I wanted to try myself in this.
-****
+
+***
+
 #My skills:
 * PostgreSQL
 * C++
@@ -21,7 +32,9 @@ I am a second year student. In my first year I studied C ++ after I got carried 
 * MathCad
 * Git, GitHub
 * Intellij IDEA, VS Code
-*****
+
+***
+
 #Code example
 
     public static reader FinderRCode1(List<reader> readerList, long ind)
@@ -34,11 +47,16 @@ I am a second year student. In my first year I studied C ++ after I got carried 
     }
     return reader1;
     }
-****
+
+***
+
 #Education
+
 * Saratov State Research University (Faculty of Mechanics and Mathematics)
     + Applied Informatics (in progress....)
-****
+
+***
+    
 #Language
 * English (A2)
 * Russian Native
