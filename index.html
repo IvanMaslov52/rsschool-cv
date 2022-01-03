@@ -1,0 +1,204 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#fafafa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        table {
+            width: 500px; /* Ширина таблицы */
+            /* border: 1px solid green; Рамка вокруг таблицы */
+            /* margin: auto; /* Выравниваем таблицу по центру окна  */
+
+        }
+        td {
+            text-align: center; /* Выравниваем текст по центру ячейки */
+        }
+    </style>
+</head>
+<body class="body">
+<div class="size1">
+    <header class="">
+        <div class="title_color">
+            <div class="size2">
+                <div class="header-margin">
+                    <div class="size3">
+                        <div class="roboto">
+                            <nav class="header-nav">
+                                <a class="ssilka" href="#contacts" class=""> My contacts</a>
+                                <a class="ssilka" href="#about" class="">About</a>
+                                <a class="ssilka" href="#skills" class="">Skills</a>
+                                <a class="ssilka" href="#code" class="">Code</a>
+                                <a class="ssilka" href="#education" class="">Education</a>
+                                <a class="ssilka" href="#language" class="">Language</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="header-import">
+                <img src="C20nhk3G03Q.jpg">
+
+                <div class="left1">
+
+                    <h1 class="">Maslov Ivan</h1>
+                    <h2 class="">Front-end Developer </h2>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+
+            <div class="title_color">
+
+                <div class="size2">
+                    <h1 id="contacts">My contacts info</h1>
+                </div>
+            </div>
+            <div class="roboto">
+                <table>
+                    <thead>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+7(987) 404-44-02</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td>ivanmaslov19911@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>GitHub:</td>
+                        <td>Papagoth</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+        <section>
+            <div class="title_color">
+                <div class="size2">
+                    <h1 id="about">About me</h1>
+                </div>
+            </div>
+            <div class="size2">
+                <div class="roboto">I am a second year student. In my first year I studied C ++ after I got carried away with backend (Java). Due to lack of experience in frontend I wanted to try myself in this.</div>
+            </div>
+        </section>
+        <section>
+            <div class="title_color">
+                <div class="size2">
+                    <h1 id="skills">Skills</h1>
+                </div>
+            </div>
+            <div class="roboto">
+                <ul>
+                    <li>C++</li>
+                    <li>JavaScript (in progress......)</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java</li>
+                    <li>MathCad</li>
+                    <li>Git, GitHub</li>
+                    <li>Intellij IDEA, VS Code</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="title_color">
+                <div class="size2">
+                    <h1 id="code">Code Example</h1>
+                </div>
+            </div>
+            <div class="code-background">
+
+<pre class="pre-none">
+   void push(list *&h, list *&t, int x)
+   {
+   list *r = new list;
+   r->inf = x;
+   r->next = NULL;
+   if (!h && !t)
+   {
+   r->prev = NULL;
+   h = r;
+   }
+   else
+   {
+   t->next = r;
+   r->prev = t;
+   }
+   t = r;
+   }
+</pre>
+
+            </div>
+        </section>
+        <section>
+            <div  class="title_color">
+                <div  class="size2">
+                    <h1 id="education">Education</h1>
+                </div>
+            </div>
+            <div class="roboto">
+                <ul>
+                    <li>Saratov State Research University (Faculty of Mechanics and Mathematics)
+                        <ul>
+                            <li>Applied Informatics (in progress....)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        The Rolling scopes school (in progress....)
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="title_color">
+                <div class="size2">
+                    <h1 id="language">Languages</h1>
+                </div>
+            </div>
+            <div class="roboto">
+                <ul>
+                    <li>English (A2)</li>
+                    <li>Russian Native</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/Papagoth"><img src="image_1.png"></a>
+        <a href="https://rs.school/js/"><img src="image_2.png"></a>
+        <span>CREATED IN 2022</span>
+    </footer>
+</div>
+</body>
+</html>
