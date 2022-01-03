@@ -1,1 +1,1 @@
-https://Papagoth.github.io/rsschool-cv/cv
+https://Papagoth.github.io/rsschool-cv/
